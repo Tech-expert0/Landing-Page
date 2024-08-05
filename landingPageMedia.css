@@ -1,0 +1,7 @@
+@media screen {max-width: 600px;
+    #Container{
+        display: block;
+        color: black;
+        background-color: black;
+    }
+}

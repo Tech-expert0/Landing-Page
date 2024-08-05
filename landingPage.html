@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+<link rel="stylesheet" href="landingPageMedia.css">
+</head>
+<style>
+    @keyframes Container{
+                                   50%  {background-color:red; left: 200px;}
+                                   50%{ background-color: white; right: 25%;}
+        }
+    
+    .Greetings{
+     margin: auto;
+     width: 100%;
+     background-color: red;
+     height: 90vh;
+     /* border: thick solid black; */
+     padding-left: 10%;
+    }
+    #Container{
+        display: grid;
+      grid-template-columns: repeat(2, 20fr);
+        /* align-items: center; */
+        background-color: yellow;
+        width: 50%;
+        height: 90vh;
+        animation-name:Container ;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+    /* margin: auto; */
+    }
+    .log-in{
+    width: 100%;
+     height: 90vh;
+     background-color:brown;
+    }
+    .information{
+        border: thin solid 3px black;
+        /* background-color: aquamarine; */
+        position: relative;
+        top: 25%;
+        right:1%;
+    }
+    .information p{
+        color: #fff;
+        /* font-size: 15px; */
+        text-align: justify;
+    }
+    .information h1{
+        color: #fff;
+    }
+    .sign-up{
+        position: relative;
+        top: 25%;
+    }
+    .link {
+        border: #fff thin solid;
+        width: 40%;
+        padding-left: 15%;
+        padding-bottom:5% ;
+        padding-top: 1%;
+        border-top-left-radius:40%;
+        border-top-right-radius:40%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        height: 2vh;
+        position: absolute;
+        left: 10%;
+        top: 150%;
+    }
+    .link a{
+        border: thick solid 5px yellow ;
+        text-decoration: none;
+        color: #fff;
+    }
+    .paragraph{
+        /* border: thin solid black; */
+        /* background-color: aquamarine; */
+        position: relative;
+        right: 5%;
+    }
+    .paragraph-2{
+        position: absolute;
+        top: 100%;
+        /* background-color: aquamarine; */
+    }
+    .others{
+        position: absolute;
+        top: 150%;
+    }
+    .sign-up{
+    margin-top: 5%;
+    /* margin-left:5%; */
+    }
+</style>
+<body>
+    <section id="Container">
+    <div class="Greetings">
+        <div class="information">
+<h1>Welcome Back!</h1>  
+<p><span class="paragraph">To keep connections with us pls login</span></p>
+<p><span class="paragraph-2">with your personal information</span></p>
+<div class="link">
+    <a href="#">Sign-in</a>
+</div>
+</div> 
+</div>
+<div class="log-in">
+    <div class="sign-up">
+    <h1>Create Account</h1>
+    <h5>or use your email for verification</h5>
+    <div class="input">
+        <div>
+            <input type="text" placeholder="Name"importance style="border: none; width: 80%; height: 5vh;  margin-left: 5%; background-color: #b5b3bc; " >
+        </div>
+           <div>
+            <input type="email" placeholder="Email"importance style="border: none; width: 80%; height: 5vh;  margin-left: 5%; background-color: #b5b3bc; margin-top: 5%;">
+        </div>
+        <div>
+            <input type="password" placeholder="Password"importance style="border: none; width: 80%; height: 5vh;  margin-left: 5%; background-color: #b5b3bc; margin-top: 5%;">>
+            </div>
+            <div class="sign-up">
+    <input type="submit" value="Signup" style="border: none; margin-left: 30%; width: 40%; background-color: red;"></a>
+            </div>          
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
